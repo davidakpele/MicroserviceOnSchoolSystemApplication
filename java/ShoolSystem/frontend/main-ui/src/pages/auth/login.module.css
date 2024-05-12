@@ -1,0 +1,44 @@
+.login_page {
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url(../../assets/images/login_bg.jpg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.container h2 {
+    color: #fff !important;
+    text-align: center;
+    font-size: 24px !important;
+}
+
+.Option_Contact a {
+    background: #c60d00;
+    color: #fff;
+    padding: 3px 10px;
+    border-radius: 3px;
+
+}
+
+.Option_Contact {
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+}
+
+.error {
+    background: #FAE8E8;
+    border: 1px solid #DAB3B6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 7px;
+    width: auto;
+    height: auto;
+    color: #333;
+    display: block;
+}
+
+.error_ico {
+    padding-left: 70px;
+    background: url(../../assets/images/bullet_error.png) #FAE8E8 no-repeat 30px center;
+}

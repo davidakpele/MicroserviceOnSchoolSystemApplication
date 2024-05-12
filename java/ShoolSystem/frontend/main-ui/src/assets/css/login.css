@@ -1,0 +1,105 @@
+.Authbody {
+    background: #EAEAEA;
+}
+
+.ui-auth-widget .element {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+label {
+    color: #7D7D7D;
+}
+
+.header-element {
+    font-size: 18px;
+    padding-top: 5px;
+    text-align: center;
+    color: #535353;
+}
+
+.mini-container {
+    margin: 0 auto;
+    padding: 10px 10px 10px 11px;
+}
+
+.container__login {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.ui-auth-widget .element {
+    width: auto;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.ui-auth-widget label {
+    display: block;
+    padding: 3px 0px 3px 0px;
+    font-size: 14px;
+    font-weight: 100;
+    width: auto;
+    height: auto;
+}
+
+.inValidFeedBack {
+    color: #fd5d5d;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.footerContent {
+    margin: auto;
+    color: #000;
+    border-top: 0px solid #CCCCCC;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.png {
+    max-width: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-toggle {
+    padding: 15px;
+}
+
+.error {
+    background: #FAE8E8;
+    border: 1px solid #DAB3B6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 7px;
+    width: auto;
+    height: auto;
+    color: #333;
+    display: block;
+}
+
+.error-ico {
+    padding-left: 70px;
+    background: url(../images/bullet_error.png) #FAE8E8 no-repeat 30px center;
+}
+
+input:focus {
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 5px red;
+}

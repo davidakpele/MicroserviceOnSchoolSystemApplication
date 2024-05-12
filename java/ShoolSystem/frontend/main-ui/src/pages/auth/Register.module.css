@@ -1,0 +1,56 @@
+._d2pkQ {
+    margin-top: 10px;
+    background: #FFF;
+    border-radius: 5px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+._sd32 {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+._sd32:active {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+._sd32:hover {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+._43ds {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+._43ds:focus {
+    border: 1.5px solid tomato;
+    background-color: #fff;
+    background-image: none;
+    -webkit-box-shadow: inset 0 1px 1px rgba(243, 103, 103, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}

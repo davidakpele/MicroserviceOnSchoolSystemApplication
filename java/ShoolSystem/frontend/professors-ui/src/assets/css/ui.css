@@ -1,0 +1,574 @@
+/**
+* Template Name: Flattern - v4.3.0
+* Template URL: https://bootstrapmade.com/flattern-multipurpose-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+@charset "UTF-8";
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #4d4643;
+}
+
+a {
+    color: #f03c02;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fd5c28;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Muli", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Back to top button
+--------------------------------------------------------------*/
+
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #f03c02;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #fd5c28;
+    color: #fff;
+    text-decoration: none;
+}
+
+.inValidFeedBack {
+    color: #fd5d5d;
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.container_Home_Login {
+    padding-top: 80px;
+}
+
+.LogandReg_body {
+    background-color: #fff;
+}
+
+.container__login {
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.671);
+    border-radius: 5px;
+    border: 1px solid #fff;
+    max-width: 540px;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.fw-bold {
+    color: black;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.navbar-inverse li a {
+    font-size: 18px;
+}
+
+.w-100 {
+    margin-top: 10px;
+}
+
+.submit_btn {
+    margin-top: 10px;
+}
+
+.Registration_lable_design {
+    color: black;
+    font-weight: 500;
+}
+
+.LogandReg_body {
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56)), url('../important__stylesheet__file/login_bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: 'Exo 2', sans-serif;
+    margin: 0px;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-wrap {
+    position: fixed;
+    bottom: 0px;
+    padding-top: 20px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.footer-wrap p {
+    font-size: 13px;
+}
+
+.header_title {
+    color: #fff;
+}
+
+@media screen and (max-width: 1800px) {
+    .login-widget {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .login-widget {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .login-widget {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .login-widget {
+        width: 100%;
+    }
+}
+
+.mini-container {
+    margin: 0 auto;
+    padding: 10px 10px 10px 11px;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.items {
+    padding-top: 0.20cm;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.submit_btn {
+    width: 100%;
+}
+
+
+
+.reg__container {
+    padding-top: 2px;
+    padding-bottom: 1.10cm;
+}
+
+
+.sms_logo {
+    max-width: 90px;
+    vertical-align: middle;
+}
+
+.sms_logo {
+    border: 0;
+}
+
+.Reg__header {
+    font-size: 20px;
+}
+
+#head .header__logo {
+    color: #fff;
+    font-size: 30px;
+}
+
+.Option__user__log a {
+    color: blue;
+    float: right;
+    display: flex;
+}
+
+.Option__user__log a {
+    display: flex;
+}
+
+.Option__user__log .Link__Create__new {
+    margin-left: 3px;
+    font-size: 13px;
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.hinges {
+    -webkit-animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.animated.slow {
+    -webkit-animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    -o-animation-duration: 3s;
+    animation-duration: 3s;
+}
+
+.animated.snail {
+    -webkit-animation-duration: 4s;
+    -moz-animation-duration: 4s;
+    -o-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes shake {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -webkit-transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -webkit-transform: translateX(10px);
+    }
+}
+
+@-moz-keyframes shake {
+
+    0%,
+    100% {
+        -moz-transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -moz-transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -moz-transform: translateX(10px);
+    }
+}
+
+@-o-keyframes shake {
+
+    0%,
+    100% {
+        -o-transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        -o-transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        -o-transform: translateX(10px);
+    }
+}
+
+@keyframes shake {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70%,
+    90% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60%,
+    80% {
+        transform: translateX(10px);
+    }
+}
+
+.shake {
+    -webkit-animation-name: shake;
+    -moz-animation-name: shake;
+    -o-animation-name: shake;
+    animation-name: shake;
+}
+
+/* Background
+ ================================ */
+
+.s-background {
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.s-background>video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+.s-background .slider {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.gradients {
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1099;
+    opacity: 0.75;
+}
+
+.gradients div {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.default,
+.blue {
+    background: #05c6d1;
+    background: -webkit-gradient(left bottom, right 45deg, color-stop(0%, #194fb8), color-stop(100%, #05c6d1));
+    background: -webkit-linear-gradient(45deg, #194fb8 0%, #05c6d1 100%);
+    background: -moz-linear-gradient(45deg, #194fb8 0%, #05c6d1 100%);
+    background: -o-linear-gradient(45deg, #194fb8 0%, #05c6d1 100%);
+    background: -ms-linear-gradient(45deg, #194fb8 0%, #05c6d1 100%);
+    background: linear-gradient(45deg, #194fb8 0%, #05c6d1 100%);
+}
+
+.slider {
+    position: fixed;
+    background-position: center 100%;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+    background-size: cover;
+    -webkit-animation: slideImg 16s infinite;
+    animation: slideImg 16s infinite;
+    opacity: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.56));
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+@-webkit-keyframes slideImg {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+@keyframes slideImg {
+    25% {
+        opacity: 1;
+    }
+
+    40% {
+        opacity: 0;
+    }
+}
+
+.slider:nth-child(1) {
+    -webkit-animation-delay: 10s;
+    animation-delay: 3s;
+}
+
+.slider:nth-child(2) {
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+}
+
+.slider:nth-child(3) {
+    -webkit-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+.slider:nth-child(4) {
+    -webkit-animation-delay: 12s;
+    animation-delay: 12s;
+}
+
+.header_title__log {
+    font-size: 20px;
+    color: #f1f1f1;
+}
+
+.title_log_m {
+    font-size: 35px;
+    color: rgb(230, 230, 230);
+}
+
+.error-ico {
+    padding-left: 70px !important;
+    background: url(../img/bullet_error.png) #FAE8E8 no-repeat 30px center !important;
+}
+
+.error {
+    background: #FAE8E8;
+    border: 1px solid #DAB3B6;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 7px;
+    width: auto;
+    height: auto;
+    color: #333;
+    display: block;
+}
+
+._container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+.custom-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 1px;
+    background: conic-gradient(#0000 10%, #766DF4) content-box;
+    -webkit-mask:
+        repeating-conic-gradient(#0000 0deg, #000 1deg 20deg, #0000 21deg 36deg),
+        radial-gradient(farthest-side, #0000 calc(100% - 9px), #000 calc(100% - 8px));
+    -webkit-mask-composite: destination-in;
+    mask-composite: intersect;
+    animation: s4 0.5s infinite steps(10);
+}
+
+@keyframes s4 {
+    to {
+        transform: rotate(1turn)
+    }
+}
